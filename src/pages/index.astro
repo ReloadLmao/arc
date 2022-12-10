@@ -6,7 +6,9 @@ import Card from '../components/Card.astro';
 <Layout title="Welcome to Arc">
 	<main>
 		<h1>Welcome to <span class="text-gradient">Arc</span></h1>
-		<h5>This is best Roblox Hub with <span class="text-gradient">Comfortable</span> for eyes design and with <span class="text-gradient">Bar</span><h5>
+		<main-info>
+		        <h5>This is best Roblox Hub with <span class="text-gradient">Comfortable</span> for eyes design and with <span class="text-gradient">Bar</span><h5>
+	        </main-info>
 		<ul role="list" class="link-card-grid">
 			<Card
 				href="https://cdn.arcsoftwares.ml/key.txt"
@@ -45,6 +47,12 @@ import Card from '../components/Card.astro';
 		margin: auto;
 		padding: 1em;
 		max-width: 60ch;
+	}
+	
+	main-info {
+		margin: auto;
+		padding: 1em;
+		max-width: 30ch;
 	}
 
 	.text-gradient {
